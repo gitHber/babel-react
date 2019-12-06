@@ -1,0 +1,33 @@
+{
+  "name": "babel-react",
+  "version": "1.0.0",
+  "description": "how to create babel react plugin",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel Component.jsx -o Component.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitHber/babel-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitHber/babel-react/issues"
+  },
+  "homepage": "https://github.com/gitHber/babel-react#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-syntax-jsx": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-generator": "^6.26.1",
+    "babel-template": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.7.4"
+  }
+}
