@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-import-to-global",
+  "version": "1.0.0",
+  "description": "traverse import to global declaration",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "compile": "babel source.js -o compile.js"
+  },
+  "keywords": [],
+  "author": "1617455243@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6"
+  }
+}
