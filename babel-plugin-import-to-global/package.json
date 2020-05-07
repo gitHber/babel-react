@@ -1,12 +1,13 @@
 {
   "name": "babel-plugin-import-to-global",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "traverse import to global declaration",
   "main": "index.js",
   "files": [
     "index.js",
     "package.json",
-    "README.md"
+    "README.md",
+    "README_zh-CN.md"
   ],
   "scripts": {
     "compile": "babel source.js -o compile.js"
